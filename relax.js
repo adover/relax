@@ -11,20 +11,20 @@ if ( !window.requestAnimationFrame ) {
 }
 (function() {
 
-    var test3dTimeline = {
-        0 : {
-            "opacity": 0,
-            "scale3d":[1,1,1]
-        },
-        50 : {
-            "opacity": 1,
-            "scale3d":[1,1,1]
-        },
-        100 : {
-            "opacity": 0,
-            "scale3d":[0.8,0.8,1]
-        }
-    }
+    // var test3dTimeline = {
+    //     0 : {
+    //         "opacity": 0,
+    //         "scale3d":[1,1,1]
+    //     },
+    //     50 : {
+    //         "opacity": 1,
+    //         "scale3d":[1,1,1]
+    //     },
+    //     100 : {
+    //         "opacity": 0,
+    //         "scale3d":[0.8,0.8,1]
+    //     }
+    // }
 
 
         var Parallax = function(selector){
